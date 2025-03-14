@@ -1,4 +1,9 @@
 '''To run:
-/usr/local/bin/python3 ./hello.py
+source ./venv/bin/activate
+python ./hello.py
 '''
+
+import numpy as np;
+
 print("Hello, World!")
+print("Here's pi for pi day! ", np.pi)
